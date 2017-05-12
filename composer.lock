@@ -1,0 +1,95 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8a0eef0eb052cba40b143260edc1a17e",
+    "content-hash": "bfadb7697160311645fbff80acd4d72d",
+    "packages": [
+        {
+            "name": "workerman/phpsocket.io-for-win",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/phpsocket.io-for-win.git",
+                "reference": "d1aa81f9701868f9c4f3b90bfd18f10360c4449a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/phpsocket.io-for-win/zipball/d1aa81f9701868f9c4f3b90bfd18f10360c4449a",
+                "reference": "d1aa81f9701868f9c4f3b90bfd18f10360c4449a",
+                "shasum": ""
+            },
+            "require": {
+                "workerman/workerman-for-win": ">=3.1.8"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PHPSocketIO\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "Socket.io"
+            ],
+            "time": "2015-11-23 07:24:49"
+        },
+        {
+            "name": "workerman/workerman-for-win",
+            "version": "v3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/workerman-for-win.git",
+                "reference": "40e8d204fa0b3cf845f2ac1cb8d97fa7e11ddf37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/workerman-for-win/zipball/40e8d204fa0b3cf845f2ac1cb8d97fa7e11ddf37",
+                "reference": "40e8d204fa0b3cf845f2ac1cb8d97fa7e11ddf37",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2016-07-29 04:24:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
